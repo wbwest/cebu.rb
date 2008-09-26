@@ -1,0 +1,13 @@
+<h1>Article Made</h1>
+
+<p>
+ <b><%=h @article.title -%></b><br /><br />
+ <%=h @article.description -%><br />
+ <b>Created By : <%=h @article.author %></b>
+</p>
+
+<p>
+<%= link_to "Edit this article", :action => 'edit_article', :id => @article %>
+<%= link_to "Back To List", :action => 'list_articles' %> 
+</p>
+

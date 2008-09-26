@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/db/migrate
+END
+006_add_project_id.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/5401/ruby/trunk/testing/ceburb/db/migrate/006_add_project_id.rb
+END
+003_add_sessions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/db/migrate/003_add_sessions.rb
+END
+002_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/5617/ruby/trunk/testing/ceburb/db/migrate/002_create_users.rb
+END
+001_create_projects.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/db/migrate/001_create_projects.rb
+END
+004_create_articles.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/db/migrate/004_create_articles.rb
+END
+005_create_comments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/5400/ruby/trunk/testing/ceburb/db/migrate/005_create_comments.rb
+END

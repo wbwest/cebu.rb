@@ -1,0 +1,28 @@
+	<% for article in @articles %>
+	<div class="content_container">
+	<h2><%=h article.title %></h2>
+    <p><%= article.description %></p>
+    </div>
+    <% end %>
+
+    <div class="content_container2">
+	<div class="icon"></div>
+   	<h2>About Cebu.rb</h2>
+    
+    <p>The Cebu.rb is a Ruby on Rails(RoR) developers and enthusiasts community. It is established in Cebu, Philippines in May 2008. The community fosters a team of RoR practitioners who help each other in learning RoR technologies and in developing open source projects.
+    <br /><br />
+	The Cebu.rb Community is composed of fun and warm people who are willing to help you learn RoR. If you are interested to join, please sign up to the official mailing list
+	 <a href='http://groups.google.com/group/ceburb' target="_blank">Clck Here</a>.
+	 </p>
+
+<!--	<%= link_to "More >>", {:action => 'about'}, {:class => 'more'} -%> -->
+    </div>
+    
+    <div class="content_container3">
+	<div class="icon2"></div>
+   	<h2>Affiliates</h2>
+    
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam, justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy quam ante ac quam. Maecenas urna purus, asd fermentum id, molestie in, commodo porttitor, felis. Nam blandit quam ut lacus. Quisque ornare a risus quis ligua. Lorem ipsum dolor sit amet, consectetuer adipiscing elit...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam, justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy quam ante ac quam. Maecenas urna purus, asd fermentum id, molestie in, commodo porttitor, felis. Nam blandit quam ut lacus. </p>
+	
+	<%= link_to "More >>", {:action => 'affiliates'}, {:class => 'more'} -%>
+    </div>

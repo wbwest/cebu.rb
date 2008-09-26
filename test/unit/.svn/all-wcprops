@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/test/unit
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/test/unit/user_test.rb
+END
+article_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/test/unit/article_test.rb
+END
+project_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/test/unit/project_test.rb
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/test/functional
+END
+ceburb_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/test/functional/ceburb_controller_test.rb
+END
+admin_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/test/functional/admin_controller_test.rb
+END
+login_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/test/functional/login_controller_test.rb
+END

@@ -1,0 +1,52 @@
+	<div class="content_container">
+		<h3>Affiliates</h3>
+    
+    	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam, justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy quam ante ac quam. Maecenas urna purus, asd fermentum id, molestie in, commodo porttitor, felis. Nam blandit quam ut lacus. Quisque ornare arisus quis ligula.<br /><br /> Phasellus tristique purus a augue condimentum adipiscing. Aenean sagittis. Etiam leo pede, as rhoncus venenatis, tristique in, vulputate at, odio. Donec et ipsum et sapien vehicula nonummy. Suspendisse potenti. Fusce varius urna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br /><br /> id quam. Sed neque mi, varius eget, tincidunt nec, suscipit id, libero. In eget purus. Vestibulum ut nisl. Donec eu mi sed turpis feugiat feugiat. Integer turpis arcu, pellentesque eget, cursus et, ase fermentum ut, sapien. Fusce metus mi, eleifend sollicitudin, molestie id, varius et, nibh. Donec ne libero. Lorem ipsum ada dolor sit amet.<br><br />
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam, justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy quam ante ac quam. Maecenas urna purus, asd fermentum id, molestie in, commodo porttitor, felis. Nam blandit quam ut lacus. Quisque ornare a risus quis ligula.<br /><br />
+</p>
+    </div>
+    
+    <div class="content_container2">
+   	<img src="/images/morph_logo.png" />
+    
+    <p>Morph Labs is the leading provider of Platform as a Service that virtualizes the application environment through the use of open source technologies to simplify deployment, delivery, and management of Web-based applications.
+	</p>
+	<a id="link" href="http://www.mor.ph" target="_blank">www.mor.ph</a>  
+    </div>
+
+   <div class="content_container3">
+   	<img src="/images/simpleteq.png" /> 
+
+    <p>Simpleteq is a software development company based in Cebu, Philippines. Its team of software engineers and Web developers design, develop, and maintain Web applications (complete application development life cycle). </p>
+	<a id="link" href="http://www.simpleteq.com/" target="_blank">www.simpleteq.com</a>  
+
+    </div>
+  
+    <div class="content_container3">
+   <img src="/images/exist.png" /> 
+    
+    <p>
+	Exist Global is a software engineering services firm that develops, designs, and delivers enterprise-class products and cutting-edge Web applications. Since 2001, Exist has created new products and applications and enhanced existing solutions, using practice teams with areas of expertise including Open Source, Web 2.0 technologies, Java, .NET, and Ruby on Rails.</p>
+	<a id="link" href="http://www.exist.com" target="_blank">www.exist.com</a>  
+    </div>
+    
+ 
+   <!-- 
+    <div class="content_container3">
+   	<h3>Company Name</h3>
+    
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam, justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy quam ante ac quam. Maecenas urna purus, id, molestie in, commodo porttitor, felis. Nam blandit quam ut lacus. Quisque ornare a risus quis ligua. Lorem ipsum dolor sit amet, consectetuer adipiscing elit...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam, justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy quam ante ac quam. Maecenas urna purus, asd fermentum id, molestie in, commodo porttitor, felis. Nam blandit quam ut lacus. </p>
+	<a id="link" href="morphexchange.com">www.morphexchange.com</a>  
+    </div>   
+   --> 
+    <div style="clear:both"></div>       
+    <!--
+    <ul class="page">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">next >></a></li>
+    </ul>-->

@@ -1,0 +1,16 @@
+<%= error_messages_for 'article' %>
+
+<p>
+ <label for="article_title">Title</label>
+ <%= text_field 'article', 'title' %>
+</p>
+
+<p>
+ <label for="article_description">Description</label>
+ <%= text_area 'article', 'description' %>
+</p>
+
+<p>
+ <label for="article_author">Author</label>
+ <%= text_field 'article', 'author' %>
+</p>

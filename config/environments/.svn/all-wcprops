@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/config/environments
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/config/environments/test.rb
+END
+development.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/config/environments/development.rb
+END
+production.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/config/environments/production.rb
+END

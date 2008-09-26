@@ -1,0 +1,16 @@
+<div>
+<p class="tab_name">cebu.rb blogs</p>
+    <p>Learn new technologies, read about the interesting topics about software development and keep updated with the latest news and events in our official blog.</p>
+</div>
+
+
+<% for article in @articles %>
+ <div class="content_container">
+	<h2><%= article.title %></h2>
+	<p><%= article.description %></p>
+ </div>
+<% end %>
+
+<br />
+<%= link_to 'Previous page', { :page => @article_pages.current.previous } if @article_pages.current.previous %>
+<%= link_to 'Next page', { :page => @article_pages.current.next } if @article_pages.current.next %>

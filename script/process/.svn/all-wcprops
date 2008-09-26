@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/process
+END
+spawner
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/process/spawner
+END
+inspector
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/process/inspector
+END
+reaper
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/process/reaper
+END

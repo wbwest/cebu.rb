@@ -1,0 +1,31 @@
+<p class="tab_name">Projects</p>
+<p>Our community builds open source RoR projects. We post technical details and other information about the projects in this page. If you wish to join our development team, contact us <a class="par_link" href="http://groups.google.com/group/ceburb?lnk=" target="_blank">here</a>.</p>
+</div>
+
+<ul class="page">
+ <%= link_to 'Previous page', { :page => @project_pages.current.previous } if @project_pages.current.previous %>
+<%= link_to 'Next page', { :page => @project_pages.current.next } if @project_pages.current.next %>
+</ul>
+
+<!--<p id="sort">Sort by: <a href="#">Author</a>  |  <a href="#">Date</a>  |  <a href="#">Comments</a></p>-->
+    
+	
+<!--this is where the dynamic content starts, display of the projects -->  
+    <div style="clear:both"></div>
+        
+
+ <% for project in @projects %>
+<div class="content_container4">
+  <div class="proj_container">	
+	 <p class="date">09/01/08</p>
+     <%= link_to project.title, {:action => 'project', :id => project}, :class => 'project_name'   %> 
+     <p class="proj_sum"><%=h project.summary %></p>
+     <div style="clear:both"></div>
+  </div>
+  <div class="author_container">
+     <h4>Authors:<br /><%=h project.author %></h4>
+     <p>Date Started : <br /><%= project.timeframe %></p>
+  </div>
+  <div style="clear:both"></div>
+ </div>
+<% end %>

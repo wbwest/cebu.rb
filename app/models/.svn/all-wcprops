@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/app/models
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/!svn/ver/5617/ruby/trunk/testing/ceburb/app/models/user.rb
+END
+comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/5394/ruby/trunk/testing/ceburb/app/models/comment.rb
+END
+article.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/app/models/article.rb
+END
+project.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/5396/ruby/trunk/testing/ceburb/app/models/project.rb
+END

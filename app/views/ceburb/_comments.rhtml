@@ -1,0 +1,31 @@
+<div id="comment_container">
+	<h4><%= pluralize(@comments.count, 'Comment') %></h4>
+    <% for comment in @comments %>
+     <div class="comment">
+    	<p class="date"><%= comment.created_at %></p>
+    	<p class="name"><%= comment.name %></p>
+        <p><%= comment.message %></p>                    
+     </div>
+    <% end %>
+
+<div>
+<br />
+<%= error_messages_for 'comment' %>
+<table bgcolor="#BAC0C1">
+	<tr><td>
+ <fieldset>
+<legend>Add a comment:</legend>
+<% form_tag :action => 'add_comment', :id => @project do %> 
+<label for="comment_name">Name </label> 
+<%= text_field 'comment', 'name',:size => 30 %><br />
+<label for="comment_message">Comment </label><br />
+<%= text_area 'comment', 'message', :rows => 3, :cols => 50 %>
+<%= submit_tag "Add Comment"%>
+<% end %>
+</fieldset>
+</div>
+</td></tr>
+</table>
+
+</div>
+</div>

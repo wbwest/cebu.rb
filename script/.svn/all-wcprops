@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/console
+END
+breakpointer
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/breakpointer
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/server
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/destroy
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/about
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/generate
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/script/plugin
+END

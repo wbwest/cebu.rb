@@ -1,0 +1,4 @@
+<h1>Users</h1>
+<%= link_to "View Users", :action => 'list_users'%>
+<%= link_to "Add Users", :action => 'add_user' %><br />
+

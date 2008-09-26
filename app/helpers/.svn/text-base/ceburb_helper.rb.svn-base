@@ -1,0 +1,2 @@
+module CeburbHelper
+end

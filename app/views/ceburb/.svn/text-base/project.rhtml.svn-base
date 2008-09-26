@@ -1,0 +1,24 @@
+  <div class="proj_container">
+    	<p id="back"><a href="projectlist.html">Back to project listings</a></p>
+    	<p class="date">09/07/08</p>
+        <div style="clear:both"></div>
+    	<h4><%= @project.title %></h4>
+    	<p class="content_container"><%= @project.description %></p>
+        
+        <a id="link" href='http://<%= @project.url_link %>' ><%= @project.url_link %></a>  
+        <div style="clear:both"></div>  
+        
+
+    </div>
+    
+    <div class="info_container">
+    	<h4>Authors:</h4>
+		<p class="content_container"><%= @project.author %></p> 
+        <div style="clear:both"></div>
+    </div>
+		 <div style="clear:both"></div>
+</div>
+</div>
+
+
+

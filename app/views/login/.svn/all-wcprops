@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/app/views/login
+END
+list_users.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/app/views/login/list_users.rhtml
+END
+ .rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/app/views/login/%20.rhtml
+END
+add_user.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/app/views/login/add_user.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/app/views/login/index.rhtml
+END
+login.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/app/views/login/login.rhtml
+END
+logout.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/5343/ruby/trunk/testing/ceburb/app/views/login/logout.rhtml
+END

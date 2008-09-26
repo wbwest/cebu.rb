@@ -1,0 +1,22 @@
+<div class="container"> 
+<%= error_messages_for 'user' %> 
+
+<fieldset> 
+<legend>Enter User Details</legend> 
+<% form_for :user do |form| %> 
+<p> 
+<label for="user_usernamname">Username:</label> 
+<%= form.text_field :username, :size => 40 %> 
+</p> 
+<p> 
+<label for="user_password">Password:</label> 
+<%= form.password_field :password, :size => 40 %> 
+</p> 
+<p> 
+<label for="user_password_confirmation">Confirm:</label> 
+<%= form.password_field :password_confirmation, :size => 40 %> 
+</p> 
+<%= submit_tag "Add User", :class => "submit" %> 
+<% end %> 
+</fieldset> 
+</div>

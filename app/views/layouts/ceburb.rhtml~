@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Home</title>
+<%= stylesheet_link_tag "base", :media => "all" %> 
+<!--[if IE]<%= stylesheet_link_tag "ie", :media => "all" %>-->
+</head>
+<body>
+<div id= "header">
+    	<div id="nav_links">
+   			<ul>
+        		<div class="<%= @index_tab %>">
+	             <li class="page1"> <%= link_to 'Home', {:action => 'index'} %></li>
+	            </div>
+            	<div class="<%= @project_tab %>"> 
+	             <li class="page2"><%= link_to 'Projects', {:action => 'project_list'}%></li>
+	            </div>
+            	<div class="<%= @resource_tab %>">
+	             <li><%= link_to 'Resources', {:action => 'resources'}%></li>
+	            </div>
+            	<div class="unused">
+	              <li class="page3">
+	              <a href="http://ceburbforums.morphexchange.org/" target="_blank">Forum</a>
+	              </li>
+	            </div>
+        	</ul>
+    	</div>          
+        <div id="logo_container"></div>
+        
+</div>
+<div id="main_container">
+ <div id="container">
+    <div class="tab_desc"></div>
+	<% if flash[:notice] -%> 
+	 <div id="notice"><%= flash[:notice] %></div> 
+	<% end -%>	 
+	<%= yield :layout %>
+    <div style="clear:both"></div>
+ </div>    
+</div>
+
+<div id="footer">
+ <div id="footer_wrapper">
+  <div class="footer_container">
+    <p>
+	   <%= link_to "Home", {:action => 'index'} %> |
+	   <%= link_to "Projects", {:action => 'project_list'} %> |	
+	   <%= link_to "Resources", {:action => 'resources'} %> |
+	   <a href="http://ceburbforums.morphexchange.org/" target="_blank">Forum</a>
+	</p>
+   </div>
+            
+            <div class="powered">
+        		<a href="http://www.mor.ph/"><img src="/images/badge_morph_128_v2.gif" /></a>
+            	<div style="clear:both"></div>
+        	</div>
+	</div>
+</div>
+</body>
+</html>

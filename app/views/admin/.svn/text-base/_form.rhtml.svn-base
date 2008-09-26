@@ -1,0 +1,25 @@
+<%= error_messages_for 'project' %>
+
+<!--[form:project]-->
+<p><label for="project_title">Title</label><br/>
+<%= text_field 'project', 'title'  %></p>
+
+<p><label for="project_summary">Summary</label><br/>
+<%= text_area 'project', 'summary', {:rows => '5'}  %></p>
+
+<p><label for="project_description">Description</label><br/>
+<%= text_area 'project', 'description'  %></p>
+
+<p><label for="project_url_link">Url link</label><br/>
+<%= text_field 'project', 'url_link'  %></p>
+
+<p><label for="project_author">Author</label><br/>
+<%= text_field 'project', 'author'  %></p>
+
+<p><label for="project_timeframe">Timeframe</label><br/>
+<%= text_field 'project', 'timeframe'  %></p>
+
+<!--<p><label for="project_created_at">Created at</label><br/>
+<%= datetime_select 'project', 'created_at'  %></p>-->
+<!--[eoform:project]-->
+

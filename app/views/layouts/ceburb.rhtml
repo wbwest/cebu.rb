@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>cebu.rb</title>
+<%= stylesheet_link_tag "base", :media => "all" %> 
+<!--[if IE]<%= stylesheet_link_tag "ie", :media => "all" %>-->
+</head>
+<body>
+
+<!--Header-->
+<div id= "header">
+     <div id="nav_links">
+   		<ul>
+        	<div class="nav_wrap"><li class="page1"><%= link_to 'Home', {:action => 'index'} %></li></div>
+            <div class="nav_wrap"><li class="page2"><%= link_to 'Projects', {:action => 'project_list'}%></li></div>
+            <div class="nav_wrap"><li><%= link_to 'Resources', {:action => 'resources'}%></li></div>
+            <div class="nav_wrap"><li><a href="http://ceburforums.morphexchange.com/" target="_blank">Forum</a></div>
+        </ul>
+    </div>     
+    <div id="logo_container"></div>
+</div>
+<!--End of Header-->
+
+<!--Start of Main Container-->
+<div id= "main_container">
+	<div class="tab_desc"></div>
+	<% if flash[:notice] -%> 
+	 <div id="notice"><%= flash[:notice] %></div> 
+	<% end -%>	 
+	<%= yield :layout %>
+    <div style="clear:both"></div>
+</div>
+<!--End of Main Container-->
+		
+<div id="footer">
+    <div class="footer2">
+	<div class="footer_container">
+	 <p>
+	   <%= link_to "Home", {:action => 'index'} %> |
+	   <%= link_to "Projects", {:action => 'project_list'} %> |	
+	   <%= link_to "Resources", {:action => 'resources'} %> |
+	   <a href="http://ceburforums.morphexchange.com/" target="_blank">Forum</a>
+	</p>
+	
+        </div>
+	
+	<a href="http://www.mor.ph/">
+        <img class="powered" src="/images/badge_morph_75.gif" border="0" />
+	</a>
+    </div>
+</div>
+</body>
+</html>
